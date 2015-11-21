@@ -6,7 +6,7 @@
 %global buildforkernels current
 
 Name:       mba6x_bl
-Version:    20150428.f1482dd
+Version:    20151121.2eb9d57
 Release:    1%{?dist}
 Summary:    Kernel module for MacBook Air backlight driver
 Group:      System Environment/Kernel
@@ -91,5 +91,9 @@ Documentation and RPM provides for mba6x_bl driver.
 
 
 %changelog
+
+* Sat Nov 21 2015 Alexander Todorov <atodorov@redhat.com> - 20151121.2eb9d57
+- Rebuild for RHEL 7.2 kernel-3.10.0-327.el7.x86_64
+
 * Tue Apr 28 2015 Alexander Todorov <atodorov@redhat.com> - 20150428.f1482dd-1
 - Initial build
